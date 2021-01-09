@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class MyFirst {
     public static void main(String[] args) {
-        Scanner Welc = new Scanner(System.in);
+        Scanner welc = new Scanner(System.in);
         System.out.println("кого попривестсвовать ?");
-        String text = Welc.nextLine();
+        String text = welc.nextLine();
         hello(text);
 
         Square s = new Square(5);
